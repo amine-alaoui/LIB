@@ -1,0 +1,12 @@
+version: "2"
+services:
+  lorawan:
+    build:
+      context: .
+      dockerfile: Dockerfile-devel
+    volumes:
+      - ./:/lorawan
+    links:
+      - redis
+  redis:
+    image: redis:6-alpine

@@ -1,0 +1,12 @@
+baseURL = "https://goreleaser.com/"
+languageCode = "en-us"
+title = "GoReleaser"
+copyright = "Made with ❤️ by GoReleaser contributors."
+googleAnalytics = "UA-106198408-1"
+theme = "hugo-apex-theme"
+pygmentsCodeFences = true
+pygmentsStyle = "dracula"
+
+[params]
+logo = "https://github.com/goreleaser.png"
+ghdocsrepo = "https://github.com/goreleaser/goreleaser/edit/master/www"
